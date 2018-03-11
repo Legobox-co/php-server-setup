@@ -64,6 +64,6 @@ apt-get update && \
 # update-alternatives --set php /usr/bin/php7.0
 
 #installing composer
-curl -sS https://getcomposer.org/installer | sudo php --install-dir=/usr/local/bin --filename=composer
+curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 
 . ~/.bashrc
