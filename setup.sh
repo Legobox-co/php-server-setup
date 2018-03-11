@@ -18,13 +18,8 @@ export LANG=en_US.UTF-8 &&
 
 apt-get install -y software-properties-common &&
 add-apt-repository -y ppa:ondrej/php &&
-# add-apt-repository -y ppa:ondrej/mariadb-10.0 && 
-apt-get update && \
-    apt-get install -y --allow-downgrades --allow-remove-essential \
-        --allow-change-held-packages \
-        php7.2-cli \
-        php7.2-common \
-        php7.2-curl \
+apt-get update && 
+    apt-get install -y --allow-downgrades --allow-remove-essential --allow-change-held-packages php7.2-cli php7.2-common php7.2-curl \
         php7.2-intl \
         php7.2-json \
         php7.2-xml \
